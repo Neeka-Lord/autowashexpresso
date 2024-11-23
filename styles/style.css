@@ -816,8 +816,13 @@ footer {
     .article__bottom{
       flex-direction: column;
     }
+    .article__top {
+      padding: 0;
+    }
     .article__top .article__img {
       width: 100%;
+      padding: 0;
+      marging-bottom: 2em;
     }
     .article__top .article__right {
        width: 100%;
@@ -825,8 +830,24 @@ footer {
     .article__bottom .article__left,
     .article__bottom .article__img {
       width: 100%;
-    }    
-
+      padding: 0;
+    }
+       .article__bottom .article__left,
+    .article__bottom .article__img {
+      width: 100%;
+    } 
+    .article__bottom .article__img {
+      padding: 0;
+    }
+    .article__top .article__right h2 {
+      width: 100%;
+      font-size: 1.5em;
+    }
+    .article__top .article__right p {
+      width: 95%;
+    }
+     	
+}
 
     /*  TRIPLE OFFERS  */
     .triple_offers {
