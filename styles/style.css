@@ -864,7 +864,7 @@ footer {
   .hgroup__second h2 {
     font-size: 2em;
   }
-  .second_duplex {
+  .second__container .second_duplex {
      display: flex;
      flex-direction: column;
   }
@@ -880,7 +880,7 @@ footer {
    .betta_headed {
      width: 100%;
    }
-   .betta .fourplex {
+   .fourplex {
      display: flex;
      flex-direction: column;
    }
